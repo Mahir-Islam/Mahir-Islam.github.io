@@ -4,6 +4,6 @@ Hello, my name is **Mahirul**. I am currently pursuing a Masters degree in Maths
 
 ## Social Links
 Feel free to check out my socials!
-> LinkedIn: https://www.linkedin.com/in/mahirul-islam-61b028192/ GitHub: https://github.com/Mahir-Islam
+> LinkedIn: https://www.linkedin.com/in/mahirul-islam-61b028192/
+> GitHub: https://github.com/Mahir-Islam
 > Kaggle: https://www.kaggle.com/mahir2
-> **Note:** The **Publish now** button is disabled if your file has not been published yet.
