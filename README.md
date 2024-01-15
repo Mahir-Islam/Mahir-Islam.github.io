@@ -9,4 +9,4 @@ Feel free to check out my socials!
 > [Kaggle](https://www.kaggle.com/mahir2)
 
 ## Privacy Policy
-For IndexHub applications, you can find the privacy policy here
+For IndexHub applications, you can find the privacy policy [here](/privacy-policy)
