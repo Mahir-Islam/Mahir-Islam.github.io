@@ -7,3 +7,6 @@ Feel free to check out my socials!
 > [GitHub](https://github.com/Mahir-Islam)
 >
 > [Kaggle](https://www.kaggle.com/mahir2)
+
+## Privacy Policy
+For IndexHub applications, you can find the privacy policy here
