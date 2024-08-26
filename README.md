@@ -1,4 +1,6 @@
-Hello, my name is **Mahirul**. I am currently pursuing a Masters degree in Maths and Statistics, with a passion for programming. I have a particular interest in data science and machine learning.
+Hello, my name is **Mahirul**. I am a Mathematics graduate, and I have a passion for programming. 
+
+I will be starting a PhD program soon, so I will keep you updated on how that goes.
 
 Store Coming Soon!
 
