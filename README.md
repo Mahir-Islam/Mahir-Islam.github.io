@@ -1,8 +1,8 @@
-Hello, my name is **Mahirul**. I am a Mathematics graduate, and I have a passion for programming. 
+Hello, my name is **Mahirul Islam**. I am a Mathematics graduate with a passion for programming.
 
-I will be starting a PhD program soon, so I will keep you updated on how that goes.
+I am a first-year Computer Science PhD student, with my research focusing on **neurosymbolic AI**, particularly on the symbolic side.
 
-Store Coming Soon!
 
 ## Privacy Policy
+(this is for a project I am working on)
 For IndexHub applications, you can find the privacy policy [here](https://mahir-islam.github.io/privacy-policy)
