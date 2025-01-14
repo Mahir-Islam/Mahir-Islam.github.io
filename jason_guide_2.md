@@ -15,7 +15,7 @@ This language was made by Anand Rao to make the "BDI" framework. BDI stands for 
 
 ## What is BDI
 
-Belief-Desire-Intention, or BDI is a language to model computer agents. It is a logical system, which uses symbols. In this context of intelligent agents, a symbol is a way to represent any relationship between objects, represented as such:
+Belief-Desire-Intention, or BDI is a framework to model computer agents. It is a logical system, which uses symbols. In this context of intelligent agents, a symbol is a way to represent any relationship between objects, represented as such:
 
 ```prolog
 predicate(object_1, ... ,object_n)
@@ -29,7 +29,7 @@ Desires are goals which the agent wants to achieve. Intentions are plans that th
 
 ## Plans
 
-To carry out a plan of "do_something", it is written as `!do_something.`. The exclamation mark **(!)** is Jason notation to define a plan. There is also a full-stop **(.)** after the statement. This acts as similarly to a grammatical full-stop, to end a statement, similar to a semi-colon **(;)** in languages like Java or C++. 
+To carry out a plan of "do_something", it is written as `!do_something.`. The exclamation mark **(!)** is Jason notation to define a plan. There is also a full-stop **(.)** after the statement. This acts similarly to a grammatical full-stop, to end a statement, similar to a semi-colon **(;)** in languages like Java or C++. 
 
 Code which executes upon a plan being initiated follows this structure:
 
@@ -39,21 +39,32 @@ Code which executes upon a plan being initiated follows this structure:
 +!do_plan : context <- action1; action2; ... ; actionX.
 ```
 
-The plus (+) sign indicates that the code should be run upon recieving the plan. The context, which is followed by a colon (:), is additional information which must be met before the actions are executed. As for the actions, this could include: obtaining a belief, executing a new plan, or performing a hard-coded function. You will also notice that they are separated by semi-colons **(;)**. In this sense, they act like commas, separating elements of a list, with the final action being closed with a full-stop. 
+The plus (+) sign indicates that the code should be run upon recieving the plan. The **context**, which is followed by a colon (:), is additional information which must be met before the actions are executed. If the context returns false, then the rest of the code will not run, similar to how an if-statement will not run if the conditions are not met. 
+
+As for the **actions**, this could include: obtaining a belief, executing a new plan, or performing a hard-coded function. You will also notice that they are separated by semi-colons **(;)**. In this sense, they act grammatically like commas, separating elements of a list, with the final action being closed with a full-stop. 
 
 ### Hard-Coded Actions
 
-The Jason framework provides some hard-coded functions not present in the base AgentSpeak, to help with quality-of-life. They are written as: `.action(arguments).` where the initial full-stop **(.)** indicates that it's an action. In Jason, you can use `.print("text").` as a pre-defined action. This will log the text onto the **MAS Console** (I will explain what that is soon).
+The Jason framework provides some hard-coded functions not present in the base AgentSpeak, as quality-of-life features. They are written as: `.action(arguments).` where the initial full-stop **(.)** indicates that it's an action. In Jason, you can use `.print("text").` as a pre-defined action. This will log the text onto the **MAS Console** (I will explain what that is soon).
 
 ## Running your first application
 
-On [part 1](mahir-islam.github.io/jason_guide_1), there is a guide on how set Jason up. If you haven't already, then I recommend that you give it a read. Performing this command:
+In [part 1](mahir-islam.github.io/jason_guide_1), there is a guide on how set Jason up. If you haven't already, then I recommend that you give it a read. In other words:
+
+```prolog
+!read(part1).
+
++!read(part1) :
+  not finished_reading(part1) <- goto([jason_guide_part_1](mahir-islam.github.io/jason_guide_1).
+```
+
+Performing this command in the terminal:
 
 ```bash
 jason app create project_name
 ```
 
-Replace *project_name* with any name you wish. Then in the appropriate filepath `/src/agt/`, have a look at either `bob.asl` or `alice.asl`, and you will find this code:
+Replace *project_name* with any name you wish. Then, in the appropriate filepath `/src/agt/`, have a look at either `bob.asl` or `alice.asl`, and you will find this code:
 
 ```prolog
 /* Initial goals */
