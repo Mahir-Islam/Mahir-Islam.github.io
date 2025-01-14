@@ -18,10 +18,10 @@ This language was made by Anand Rao to make the "BDI" framework. BDI stands for 
 Belief-Desire-Intention, or BDI is a language to model computer agents. It is a logical system, which uses symbols. In this context of intelligent agents, a symbol is a way to represent any relationship between objects, represented as such:
 
 ```prolog
-predicate(object_1 ... object_n)
+predicate(object_1, ... ,object_n)
 ```
 
-This may sound very abstract. The "predicate" is the relationship that is being checked for, and the objects are that which are being checked for such relationship. For example: `inside(house, chair)` could be used to be interpreted as "the chair is inside the house". It is also not necessary that a symbol contains more than one object. For example: `prime(47)` could be interpreted as "47 is prime" (which is true). 
+This may sound very abstract. The "predicate" is the relationship that is being checked for, and the objects are that which are being checked for such relationship. For example: `inside(house, chair)` could be interpreted as *"the chair is inside the house"*. It is also not necessary that a symbol contains more than one object. For example: `prime(47)` could be interpreted as "47 is prime" (which is true). 
 
 In Jason, these symbols are widely used to check for, acquire and replace **beliefs**. 
 
@@ -29,7 +29,7 @@ Desires are goals which the agent wants to achieve. Intentions are plans that th
 
 ## Plans
 
-To carry out a plan of "do_something", it is written as `!do_something.`. The exclamation mark (!) is Jason notation to define a plan. There is also a full-stop (.) after the statement. This acts as similarly to a grammatical full-stop, to end a statement, similar to a semi-colon (;) in languages like Java or C++. 
+To carry out a plan of "do_something", it is written as `!do_something.`. The exclamation mark **(!)** is Jason notation to define a plan. There is also a full-stop **(.)** after the statement. This acts as similarly to a grammatical full-stop, to end a statement, similar to a semi-colon **(;)** in languages like Java or C++. 
 
 Code which executes upon a plan being initiated follows this structure:
 
@@ -39,64 +39,40 @@ Code which executes upon a plan being initiated follows this structure:
 +!do_plan : context <- action1; action2; ... ; actionX.
 ```
 
-The plus (+) sign indicates that the code should be run upon recieving the plan. The context, which is followed by a colon (:), is additional information which must be met before the actions are executed. As for the actions, this could include: obtaining a belief, executing a new plan, or performing a hard-coded function. You will also notice that they are separated by semi-colons (;). In this sense, they act like commas, separating elements of a list, with the final action being closed with a full-stop.
+The plus (+) sign indicates that the code should be run upon recieving the plan. The context, which is followed by a colon (:), is additional information which must be met before the actions are executed. As for the actions, this could include: obtaining a belief, executing a new plan, or performing a hard-coded function. You will also notice that they are separated by semi-colons **(;)**. In this sense, they act like commas, separating elements of a list, with the final action being closed with a full-stop. 
 
-## Plans
+### Hard-Coded Actions
 
-| Problem | Solution |
-| ------ | ------ |
-| There is no bin file | Make sure you have installed the .zip file from Github. |
-| The Jason CLI is not responding | Try restarting your computer. If the issue still persists, use GitBash instead of Command Line. |
+The Jason framework provides some hard-coded functions not present in the base AgentSpeak, to help with quality-of-life. They are written as: `.action(arguments).` where the initial full-stop **(.)** indicates that it's an action. In Jason, you can use `.print("text").` as a pre-defined action. This will log the text onto the **MAS Console** (I will explain what that is soon).
 
------
+## Running your first application
 
-## Your first Jason Project
+On [part 1](mahir-islam.github.io/jason_guide_1), there is a guide on how set Jason up. If you have already, I recommend that you give it a read. Performing this command:
 
-> I recommend that you download GitBash as your terminal. It’s like Command Line, but has more features, and if you are already familiar with Linux, the commands are the same. When I mention the “terminal”, I will be referring to the GitBash terminal.
-
-Open a folder where you want to store your Jason projects, then open the terminal and write this command:
-
-```sh
-jason app create first_project
+```bash
+jason app create project_name
 ```
 
-You can change `first_project` to any name you wish for your project. Using an IDE of your choice (VSCode, Sublime Text, etc), open the directory. You will see a file with the **.mas2j** extension. This file is used to execute the program which you will make. 
-
-To run the project, open the terminal in the project directory and execute this command:
-
-```sh
-jason first_project.mas2j
-```
-Where *first_project* is the name of your Jason project. A GUI window will open, where the default agents: *bob* and *alice* will both say “hello world”.
-
------
-
-## Project Format
-
-By default, the **.mas2j** file will have this boilerplate code:
-
-```java
-MAS first_project {
-
-    environment: example.Env(10)
-
-    agents: bob;
-            alice;
-
-    aslSourcePath: "src/agt";
-}
-```
-
-MAS stands for **multi-agent system**. The environment refers to the Java file *Env.java* which you may find in `project_name/src/env/example/Env.java`. The agents listed: **bob** and **alice**, are those which will be called during the runtime. Finally, `aslSourcePath` is the directory of the agents. In this case, go to `project_name/src/agt/`.
-
-You will see two **.asl** files. ASL is the extension for AgentSpeak code. This is also where the agent logic is located. If you open `bob.asl`, you will find this code:
+Replace *project_name* with any name you want. Then in the appropriate filepath `/src/agt/`, have a look at either `bob.asl` or `alice.asl`, and you will find this code:
 
 ```prolog
+/* Initial goals */
 !start.
 
+/* Plans */
 +!start : true <- .print("hello world.").
 ```
 
-…which is what caused Bob to say “hello world”. Alice also has the same code.
+You should now be able to interpret this:
+* `!start.` - Implement the plan called "start",
+* `+!start :` - If the plan "start" is implemented,
+* `true <-` - The context returns true, so proceed,
+* `.print("hello world.").` - Perform the action of printing "hello world"
 
-For the line: `!start.` the exclamation mark **!** is used to represent a plan. In this case, the plan is called **start**. The full stop **.** after the **!start** plan closes the statement. In a way, it is similar to semi-colon ; of C# or Java.
+To see this in action, go to the base directory of the project, then run in your terminal:
+
+```bash
+jason project_name.mas2j
+```
+
+This will open a Java GUI known as the **MAS Console**, where both Bob and Alice will say "hello world.".
