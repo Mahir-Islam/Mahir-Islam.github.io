@@ -7,13 +7,16 @@ If you have coded in a mainstream language like Python, Java, JavaScript, C# etc
 
 > While not required for learning AgentSpeak, you can read the original scientific paper which conceptualised the language [here](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a20352a44780acc63cce1417502088668bec5add). It also includes alot of mathematical/logical notation, so if you are familiar with such, it will greatly help.
 
-To summarise the installation guide **(for Windows)**:
+This language was made by Anand Rao to make the "BDI" framework. BDI stands for Belief-Desire-Intention.
 
-- Make sure you have Java installed.
-- Download Jason from GitHub [here](https://github.com/jason-lang/jason/releases). Make sure you choose the **.zip** fle. Unzip the file, then you will see a **bin** file.
-- Copy and paste that bin file directory, then open the Environmental Variables window. On the **System Variables (the one on the bottom, not the top)**, select the “Path” variable.
-- Press “New”, then paste the filepath.
-- To test whether the installation is successful, type `jason` into your terminal, and it should display a message.
+## What is BDI
+
+Belief-Desire-Intention, or BDI is a language to model computer agents. It is a logical system, which uses symbols. In this context of intelligent agents, a symbol is represented as such:
+
+```prolog
+predicate(object_1 ... object_n)
+```
+
 
 ### Issues
 
