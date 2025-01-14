@@ -1,6 +1,10 @@
 # Jason - AgentSpeak Logic
 #### By Mahirul Islam
 
+## Introduction
+
+This article will provide a theoretical overview of the BDI framework, AgentSpeak and symbolic notation.
+
 ## About AgentSpeak
 
 If you have coded in a mainstream language like Python, Java, JavaScript, C# etc, you would understand that they are all syntactically, functionally and structurally similar. For AgentSpeak, completely disregard the system that you are familiar with, because this language is unlike anything you have seen before.
@@ -19,7 +23,25 @@ predicate(object_1 ... object_n)
 
 This may sound very abstract. The "predicate" is the relationship that is being checked for, and the objects are that which are being checked for such relationship. For example: `inside(house, chair)` could be used to be interpreted as "the chair is inside the house". It is also not necessary that a symbol contains more than one object. For example: `prime(47)` could be interpreted as "47 is prime" (which is true). 
 
-### Issues
+In Jason, these symbols are widely used to check for, acquire and replace **beliefs**. 
+
+Desires are goals which the agent wants to achieve. Intentions are plans that the agent will take to meet its desires. In a way, intentions may be seen as a function of beliefs and desires: I = f(B, D).
+
+## Plans
+
+To carry out a plan of "do_something", it is written as `!do_something.`. The exclamation mark (!) is Jason notation to define a plan. There is also a full-stop (.) after the statement. This acts as similarly to a grammatical full-stop, to end a statement, similar to a semi-colon (;) in languages like Java or C++. 
+
+Code which executes upon a plan being initiated follows this structure:
+
+```
+!do_plan.
+
++!do_plan : context <- action1; action2; ... ; actionX.
+```
+
+The plus (+) sign indicates that the code should be run upon recieving the plan. The context, which is followed by a colon (:), is additional information which must be met before the actions are executed. As for the actions, this could include: obtaining a belief, executing a new plan, or performing a hard-coded function. You will also notice that they are separated by semi-colons (;). In this sense, they act like commas, separating elements of a list, with the final action being closed with a full-stop.
+
+## Plans
 
 | Problem | Solution |
 | ------ | ------ |
