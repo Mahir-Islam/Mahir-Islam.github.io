@@ -3,9 +3,9 @@
 
 ## About AgentSpeak
 
-If you have coded in a mainstream programming language, like Python, Java, JavaScript, C# etc, you would understand that they are all syntactically, functionally and structurally similar. Now for AgentSpeak, completely disregard the system that you are familiar with, because this language is unlike anything you have seen before. 
+If you have coded in a mainstream language like Python, Java, JavaScript, C# etc, you would understand that they are all syntactically, functionally and structurally similar. For AgentSpeak, completely disregard the system that you are familiar with, because this language is unlike anything you have seen before.
 
-My PhD project involves using AgentSpeak to create autonomous agents as part of my research. We are using a program called Jason, as an interpreter. I am writing this guide to help save time for other people who wish to learn AgentSpeak. First, to download this program onto your computer, [follow this guide here.](https://jason-lang.github.io/doc/tutorials/vscode/readme.html). 
+> While not required for learning AgentSpeak, you can read the original scientific paper which conceptualised the language [here](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a20352a44780acc63cce1417502088668bec5add). It also includes alot of mathematical/logical notation, so if you are familiar with such, it will greatly help.
 
 To summarise the installation guide **(for Windows)**:
 
