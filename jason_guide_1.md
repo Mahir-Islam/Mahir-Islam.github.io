@@ -1,6 +1,5 @@
 # Introduction to using Jason
 #### By Mahirul Islam
------
 ## Installation
 
 My PhD project involves using AgentSpeak to create autonomous agents as part of my research. We are using a program called Jason, as an interpreter. I am writing this guide to help save time for other people who wish to learn AgentSpeak. First, to download this program onto your computer, [follow this guide here.](https://jason-lang.github.io/doc/tutorials/vscode/readme.html). 
