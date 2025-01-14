@@ -47,13 +47,13 @@ The Jason framework provides some hard-coded functions not present in the base A
 
 ## Running your first application
 
-On [part 1](mahir-islam.github.io/jason_guide_1), there is a guide on how set Jason up. If you have already, I recommend that you give it a read. Performing this command:
+On [part 1](mahir-islam.github.io/jason_guide_1), there is a guide on how set Jason up. If you haven't already, then I recommend that you give it a read. Performing this command:
 
 ```bash
 jason app create project_name
 ```
 
-Replace *project_name* with any name you want. Then in the appropriate filepath `/src/agt/`, have a look at either `bob.asl` or `alice.asl`, and you will find this code:
+Replace *project_name* with any name you wish. Then in the appropriate filepath `/src/agt/`, have a look at either `bob.asl` or `alice.asl`, and you will find this code:
 
 ```prolog
 /* Initial goals */
