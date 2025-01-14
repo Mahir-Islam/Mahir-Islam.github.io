@@ -11,12 +11,13 @@ This language was made by Anand Rao to make the "BDI" framework. BDI stands for 
 
 ## What is BDI
 
-Belief-Desire-Intention, or BDI is a language to model computer agents. It is a logical system, which uses symbols. In this context of intelligent agents, a symbol is represented as such:
+Belief-Desire-Intention, or BDI is a language to model computer agents. It is a logical system, which uses symbols. In this context of intelligent agents, a symbol is a way to represent any relationship between objects, represented as such:
 
 ```prolog
 predicate(object_1 ... object_n)
 ```
 
+This may sound very abstract. The "predicate" is the relationship that is being checked for, and the objects are that which are being checked for such relationship. For example: `inside(house, chair)` could be used to be interpreted as "the chair is inside the house". It is also not necessary that a symbol contains more than one object. For example: `prime(47)` could be interpreted as "47 is prime" (which is true). 
 
 ### Issues
 
