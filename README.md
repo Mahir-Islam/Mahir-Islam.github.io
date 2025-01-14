@@ -6,7 +6,8 @@ I am a first-year Computer Science PhD student, with my research focusing on **n
 
 | Information | URL |
 | ----------- | ---- |
-| Jason Guide | [Jason Guide, Part 1](https://mahir-islam.github.io/jason_guide_1) |
+| Jason Guide - Setting Up | [Jason Guide, Part 1](https://mahir-islam.github.io/jason_guide_1) |
+| Jason Guide - Fundamental Concepts | [Jason Guide, Part 1](https://mahir-islam.github.io/jason_guide_2) |
 
 ## Privacy Policy
 (this is for a project I am working on)
