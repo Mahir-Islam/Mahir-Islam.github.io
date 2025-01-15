@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This article will provide a theoretical overview of the BDI framework, AgentSpeak and symbolic notation. In my PhD, we are working on a system where a symbolic Jason program works in-tandem with a **Deep Learning** (DL) network to produce something which combines the powerful DL function approximating with the safety and explainability of a symbolic agent. 
+This article will provide a theoretical overview of the BDI framework, AgentSpeak and symbolic notation. In my PhD, we are working on a system where a symbolic Jason program works in-tandem with a **Deep Learning** (DL) network to produce something which combines the powerful DL function approximating with the safety and explainability of a symbolic agent. Not to self, make sure to drink enough **H~2~O**.
 
 ## About AgentSpeak
 
@@ -95,7 +95,7 @@ This will open a Java GUI known as the **MAS Console**, where both Bob and Alice
 
 ## Adding Beliefs
 
-Beliefs are also indispensible for any Jason program. Suppose after saying "hello world", we want Bob to acknowledge that he followed through on the !start plan. We could add a belief like `finished_plan(start)` which he will remember. Suppose we also want the agent Alice to acknowledge her own existence ==(the robots are becoming sentient >:])==, we could give her a belief such as `i_am(alice)` upon completing !start.
+Beliefs are also indispensible for any Jason program. Suppose after saying "hello world", we want Bob to acknowledge that he followed through on the !start plan. We could add a belief like `finished_plan(start)` which he will remember. Suppose we also want the agent Alice to acknowledge her own existence ~(the robots are becoming sentient >:])~, we could give her a belief such as `i_am(alice)` upon completing !start.
 
 In your `.asl` agent files, change Bob's plan to this:
 
@@ -117,10 +117,26 @@ Likewise, for `alice.asl`, you would write `+i_am(alice)` on her plan as such:
 
 Now, if you run `jason project_name.mas2j` again, the console will appear the same. However, if you go on the MAS Console, click the **Debug** button, and click on the agents. You will see their beliefs present.
 
+### Troubleshooting
+
+| Problem | Solution |
+| ------ | ------ |
+| The Jason CLI is not responding | Try restarting your computer. If the issue still persists, use GitBash instead of Command Line. Read [chapter 1](mahir-islam.github.io/jason_guide_1)  for an installation guide |
+| The MAS Console outputs "executing: <action>, but not implemented" | Make sure in the !start plan, actions are separated using semicolons, functions start with a full-stop, and the plan is also closed with a full stop  |
+-----
+
+
 ## Summary
 
 Now, you should be able to:
 
-[x] Create, run, and interpret plans 
-[x] Add and view beliefs
-[x] Print text to the console
+- [x] Create, run, and interpret plans 
+- [x] Add and view beliefs
+- [x] Print text to the console
+
+### Other Chapters
+
+[Chapter 1](mahir-islam.github.io/jason_guide_1)
+[Chapter 2](mahir-islam.github.io/jason_guide_2)
+
+
