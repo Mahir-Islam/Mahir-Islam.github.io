@@ -136,7 +136,7 @@ Now, you should be able to:
 
 ### Other Chapters
 
-[Chapter 1](mahir-islam.github.io/jason_guide_1)
-[Chapter 2](mahir-islam.github.io/jason_guide_2)
+:: [Chapter 1](mahir-islam.github.io/jason_guide_1)
+:: [Chapter 2](mahir-islam.github.io/jason_guide_2)
 
 
