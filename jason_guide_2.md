@@ -3,7 +3,8 @@
 
 ## Introduction
 
-This article will provide a theoretical overview of the BDI framework, AgentSpeak and symbolic notation. In my PhD, we are working on a system where a symbolic Jason program works in-tandem with a **Deep Learning** (DL) network to produce something which combines the powerful DL function approximating with the safety and explainability of a symbolic agent. Not to self, make sure to drink enough **H~2~O**.
+This article will provide a theoretical overview of the BDI framework, AgentSpeak and symbolic notation. In my PhD, we are working on a system where a symbolic Jason program works in-tandem with a **Deep Learning** (DL) network to produce something which combines the powerful DL function approximating with the safety and explainability of a symbolic agent. Not to self, make sure to drink enough **H<sub>2</sub>O
+**.
 
 ## About AgentSpeak
 
