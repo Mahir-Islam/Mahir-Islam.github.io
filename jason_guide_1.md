@@ -1,4 +1,4 @@
-# Introduction to using Jason
+# Introduction to using Jason (Part 1)
 #### By Mahirul Islam
 ## Installation
 
@@ -71,3 +71,8 @@ You will see two **.asl** files. ASL is the extension for AgentSpeak code. This 
 …which is what caused Bob to say “hello world”. Alice also has the same code.
 
 For the line: `!start.` the exclamation mark **!** is used to represent a plan. In this case, the plan is called **start**. The full stop **.** after the **!start** plan closes the statement. In a way, it is similar to semi-colon ; of C# or Java.
+
+### Other Chapters
+
+[Chapter 1](mahir-islam.github.io/jason_guide_1)
+[Chapter 2](mahir-islam.github.io/jason_guide_2)
