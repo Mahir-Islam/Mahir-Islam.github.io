@@ -74,5 +74,5 @@ For the line: `!start.` the exclamation mark **!** is used to represent a plan. 
 
 ### Other Chapters
 
-[Chapter 1](mahir-islam.github.io/jason_guide_1)
-[Chapter 2](mahir-islam.github.io/jason_guide_2)
+[Chapter 1](/jason_guide_1)
+[Chapter 2](/jason_guide_2)
