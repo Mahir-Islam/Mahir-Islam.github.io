@@ -60,7 +60,7 @@ In [part 1](mahir-islam.github.io/jason_guide_1), there is a guide on how set Ja
 
 +!read(part1) :
   not finished_reading(part1) <- goto("mahir-islam.github.io/jason_guide_1");
-  finished_reading(part1).
+  +finished_reading(part1).
 ```
 
 Performing this command in the terminal:
@@ -123,6 +123,7 @@ Now, if you run `jason project_name.mas2j` again, the console will appear the sa
 | ------ | ------ |
 | The Jason CLI is not responding | Try restarting your computer. If the issue still persists, use GitBash instead of Command Line. Read [chapter 1](mahir-islam.github.io/jason_guide_1)  for an installation guide |
 | The MAS Console outputs "executing: <action>, but not implemented" | Make sure in the !start plan, actions are separated using semicolons, functions start with a full-stop, and the plan is also closed with a full stop  |
+
 -----
 
 
@@ -130,13 +131,13 @@ Now, if you run `jason project_name.mas2j` again, the console will appear the sa
 
 Now, you should be able to:
 
-- [x] Create, run, and interpret plans 
-- [x] Add and view beliefs
-- [x] Print text to the console
+[x] Create, run, and interpret plans 
+[x] Add and view beliefs
+[x] Print text to the console
 
 ### Other Chapters
 
-* [Chapter 1](mahir-islam.github.io/jason_guide_1)
-* [Chapter 2](mahir-islam.github.io/jason_guide_2)
+* [Chapter 1](/jason_guide_1)
+* [Chapter 2](/jason_guide_2)
 
 
