@@ -95,7 +95,7 @@ This will open a Java GUI known as the **MAS Console**, where both Bob and Alice
 
 ## Adding Beliefs
 
-Beliefs are also indispensible for any Jason program. Suppose after saying "hello world", we want Bob to acknowledge that he followed through on the !start plan. We could add a belief like `finished_plan(start)` which he will remember. Suppose we also want the agent Alice to acknowledge her own existence ~(the robots are becoming sentient >:])~, we could give her a belief such as `i_am(alice)` upon completing !start.
+Beliefs are also indispensible for any Jason program. Suppose after saying "hello world", we want Bob to acknowledge that he followed through on the !start plan. We could add a belief like `finished_plan(start)` which he will remember. Suppose we also want the agent Alice to acknowledge her own existence --- (the robots are becoming sentient >:]) ---, we could give her a belief such as `i_am(alice)` upon completing !start.
 
 In your `.asl` agent files, change Bob's plan to this:
 
@@ -131,9 +131,9 @@ Now, if you run `jason project_name.mas2j` again, the console will appear the sa
 
 Now, you should be able to:
 
-[x] Create, run, and interpret plans 
-[x] Add and view beliefs
-[x] Print text to the console
+* Create, run, and interpret plans 
+* Add and view beliefs
+* Print text to the console
 
 ### Other Chapters
 
