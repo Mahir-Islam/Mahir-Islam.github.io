@@ -15,7 +15,7 @@ Hello, my name is **Mahirul Islam**. I am also a first-year Computer Science PhD
 
 | Title | URL |
 | ----------- | ---- |
-| What is the Pump Scheduling Problem | [Jason Guide, Part 1](https://mahir-islam.github.io/psp) |
+| What is the Pump Scheduling Problem | [Pump Scheduling Problem](https://mahir-islam.github.io/psp) |
 
 
 ## Privacy Policy
