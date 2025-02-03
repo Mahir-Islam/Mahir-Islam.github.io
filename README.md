@@ -1,17 +1,22 @@
 # Mahirul
 
-Hello, my name is **Mahirul Islam**. I am a Mathematics graduate with a passion for programming.
-
-I am also a first-year Computer Science PhD student, with my research focusing on **neurosymbolic AI**, particularly on the symbolic side.
+Hello, my name is **Mahirul Islam**. I am also a first-year Computer Science PhD student, with my research focusing on **neurosymbolic AI**, particularly on the symbolic side.
 
 ## Useful Links:
 
 ### For those wishing to learn Jason (not to be confused with JSON)
 
-| Information | URL |
+| Part | URL |
 | ----------- | ---- |
 | Jason Guide - Setting Up | [Jason Guide, Part 1](https://mahir-islam.github.io/jason_guide_1) |
 | Jason Guide - Fundamental Concepts | [Jason Guide, Part 2](https://mahir-islam.github.io/jason_guide_2) |
+
+### Pump Scheduling Problem
+
+| Title | URL |
+| ----------- | ---- |
+| What is the Pump Scheduling Problem | [Jason Guide, Part 1](https://mahir-islam.github.io/psp) |
+
 
 ## Privacy Policy
 (this is for a project I am working on)
