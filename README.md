@@ -19,7 +19,7 @@ Hello, my name is **Mahirul Islam**. I am also a first-year Computer Science PhD
 
 ## Cool Projects I made:
 
-* [DROPBLOX](https://github.com/Mahir-Islam/dropblox)
+* Play [DROPBLOX](https://mahir-islam.github.io/dropblox)
 
 
 ## Privacy Policy
