@@ -19,8 +19,11 @@ Hello, my name is **Mahirul Islam**. I am also a first-year Computer Science PhD
 
 ## Cool Projects I made:
 
+### Games
 * Play [DROPBLOX](https://mahir-islam.github.io/dropblox)
 
+### Tools
+* [Standard Deviation Calculator](https://mahir-islam.github.io/standard-deviation)
 
 ## Privacy Policy
 (this is for a project I am working on)
