@@ -23,7 +23,7 @@ Hello, my name is **Mahirul Islam**. I am also a first-year Computer Science PhD
 * Play [DROPBLOX](https://mahir-islam.github.io/dropblox) (2025)
 
 ### Tools
-* [Jeometry](https://mahir-islam.github.io/jeometry) (2017)
+* [Jeometry](https://mahir-islam.github.io/Jeometry) (2017). Note that the website is no longer being developed, see it more like an artefact.
 * [Standard Deviation Calculator](https://mahir-islam.github.io/standard-deviation) (2019)
 
 ## Privacy Policy
