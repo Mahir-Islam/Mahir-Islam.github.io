@@ -1,8 +1,13 @@
 # Mahirul
 
-Hello, my name is **Mahirul Islam**. I am also a first-year Computer Science PhD student, with my research focusing on **neurosymbolic AI**, particularly on the symbolic side.
+Hello, my name is **Mahirul Islam**. I am a second-year Computer Science PhD student, with my research focusing on **neurosymbolic AI**, particularly on the symbolic side.
 
 ## Useful Links:
+
+### Supervisors
+* [Mengwei Xu](https://mengweixu.netlify.app)
+* [Rafael Cardoso](https://www.abdn.ac.uk/people/rafael.cardoso)
+* [Wanqing Zhao](https://www.ncl.ac.uk/computing/people/profile/wanqingzhao.html)
 
 ### For those wishing to learn Jason (not to be confused with JSON)
 
