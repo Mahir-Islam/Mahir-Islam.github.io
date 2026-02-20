@@ -9,7 +9,9 @@ Hello, my name is **Mahirul Islam**. I am a second-year Computer Science PhD stu
 * [Rafael Cardoso](https://www.abdn.ac.uk/people/rafael.cardoso)
 * [Wanqing Zhao](https://www.ncl.ac.uk/computing/people/profile/wanqingzhao.html)
 
-* [My OpenReview Profile](https://openreview.net/profile?id=~Mahirul_Islam1)
+#### Because Science 
+* [OpenReview](https://openreview.net/profile?id=~Mahirul_Islam1)
+* [ORDIC](https://orcid.org/0009-0005-3906-9472)
 
 ### For those wishing to learn Jason (not to be confused with JSON)
 
@@ -17,6 +19,10 @@ Hello, my name is **Mahirul Islam**. I am a second-year Computer Science PhD stu
 | ----------- | ---- |
 | Jason Guide - Setting Up | [Jason Guide, Part 1](https://mahir-islam.github.io/jason_guide_1) |
 | Jason Guide - Fundamental Concepts | [Jason Guide, Part 2](https://mahir-islam.github.io/jason_guide_2) |
+
+Other useful Jason Links:
+* [Jason Documention](https://jason-lang.github.io/api/jason/functions/package-summary.html)
+* [By Kevin McAreavey](https://kevinmcareavey.github.io/jason-tutorial-series/html/)
 
 ### Pump Scheduling Problem
 
