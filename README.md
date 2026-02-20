@@ -11,7 +11,7 @@ Hello, my name is **Mahirul Islam**. I am a second-year Computer Science PhD stu
 
 #### Because Science 
 * [OpenReview](https://openreview.net/profile?id=~Mahirul_Islam1)
-* [ORDIC](https://orcid.org/0009-0005-3906-9472)
+* [ORCID](https://orcid.org/0009-0005-3906-9472)
 
 ### For those wishing to learn Jason (not to be confused with JSON)
 
