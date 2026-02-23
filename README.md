@@ -38,6 +38,7 @@ Other useful Jason Links:
 ### Tools
 * [Jeometry](https://mahir-islam.github.io/Jeometry) (2017). Note that the website is no longer being developed, see it more like an artefact.
 * [Standard Deviation Calculator](https://mahir-islam.github.io/standard-deviation) (2019)
+* [Permutation Multiplier](https://mahir-islam.github.io/permutation) (2022)
 
 ## Privacy Policy
 (this is for a project I am working on)
