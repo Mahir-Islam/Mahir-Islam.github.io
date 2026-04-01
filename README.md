@@ -24,6 +24,11 @@ Other useful Jason Links:
 * [Jason Documention](https://jason-lang.github.io/api/jason/functions/package-summary.html)
 * [By Kevin McAreavey](https://kevinmcareavey.github.io/jason-tutorial-series/html/)
 
+### Scientific Publications
+
+#### 2026
+[Neuro-Symbolic Pump Scheduling for Safe and Cost-efficient Water Distribution Networks](https://openreview.net/forum?id=nmGqyhIOVT&referrer=%5Bthe%20profile%20of%20Mahirul%20Islam%5D(%2Fprofile%3Fid%3D~Mahirul_Islam1))
+
 ### Pump Scheduling Problem
 
 | Title | URL |
