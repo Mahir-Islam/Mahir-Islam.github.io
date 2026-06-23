@@ -41,6 +41,7 @@ Other useful Jason Links:
 * Play [DROPBLOX](https://mahir-islam.github.io/dropblox) (2025)
 
 ### Tools
+* [URL Spinner](https://mahir-islam.github.io/url_spinner) (2026)
 * [Jeometry](https://mahir-islam.github.io/Jeometry) (2017). Note that the website is no longer being developed, see it more like an artefact.
 * [Standard Deviation Calculator](https://mahir-islam.github.io/standard-deviation) (2019)
 * [Permutation Multiplier](https://mahir-islam.github.io/permutation) (2022)
