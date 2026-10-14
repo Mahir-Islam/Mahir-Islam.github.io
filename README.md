@@ -46,6 +46,3 @@ Other useful Jason Links:
 * [Standard Deviation Calculator](https://mahir-islam.github.io/standard-deviation) (2019)
 * [Permutation Multiplier](https://mahir-islam.github.io/permutation) (2022)
 
-## Privacy Policy
-(this is for a project I am working on)
-For IndexHub applications, you can find the privacy policy [here](https://mahir-islam.github.io/privacy-policy)
